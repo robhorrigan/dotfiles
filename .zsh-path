@@ -1,0 +1,10 @@
+# --- PATH ------------------------------------
+export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin
+
+# rvm
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM bin
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# nvm
+export NVM_DIR="/Users/roberthorrigan/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
