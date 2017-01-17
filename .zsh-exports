@@ -1,4 +1,8 @@
 # --- EXPORTS (& other stuff copied from dotfiles) ----------
+# Spaceship theme default overrides
+export SPACESHIP_NVM_SYMBOL="⬡ "
+export SPACESHIP_RUBY_SYMBOL="❖"
+
 # Make vim the default editor
 export EDITOR="vim"
 
